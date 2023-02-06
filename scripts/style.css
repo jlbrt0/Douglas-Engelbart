@@ -1,0 +1,192 @@
+/*-------------Paramètres généreaux-------------*/
+
+/*Paramètre du corps*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: rgb(26, 26, 26);
+	color: rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+}
+
+section{
+	margin-left: 2rem;
+}
+
+footer{
+	margin: 3rem 2rem 0;
+	text-align: center;
+}
+
+header{
+	margin: 5rem 0 2rem 2rem;
+}
+
+h1{
+	text-decoration: underline rgb(74, 138, 175);
+	text-decoration-thickness: 3px;
+}
+
+/*Paramètre du décalage de scroll*/
+
+.Parcours{  
+	scroll-margin-top: 8rem;
+
+}
+
+.Creations{
+	scroll-margin-top: 5rem;
+}
+
+/*--------------------------------------------*/
+
+/*-----------Groupe paramètre navbar-----------*/
+
+nav{
+	top: 0;
+	position: fixed;
+	width: 100%;
+	margin-left: -10px;
+
+	border-bottom: 25px solid transparent;
+	background: linear-gradient(rgba(26, 26, 26), rgba(26, 26, 26)) padding-box,
+              linear-gradient(to bottom, rgb(80, 80, 80), rgba(255, 255, 255, 0)) border-box;
+}
+
+nav a{
+	float: left;
+	color: rgb(255, 255, 255);
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(123, 191, 230);
+    -webkit-transition: background-color 0.6s linear;
+    -ms-transition: background-color 0.6s linear;
+    transition: background-color 0.6s linear;
+	color:rgb(26, 26, 26);
+	border-radius: 10px;
+}
+
+/*---------------------------------------------*/
+
+/*----------Groupe paramètre tableaux----------*/
+
+table{
+    border: 3px solid rgb(255, 255, 255);
+	border-radius: 25px;
+	width: 30%;
+	margin: 1rem 3% 6% 3%;
+	table-layout: fixed;
+	float: right;
+}
+
+td{
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+thead{
+	line-height: 2px;
+}
+
+/*---------------------------------------------*/
+
+/*--------------Paramètre du reste-------------*/
+
+/*Paramètre des l'images numéro 1, 2 et 3*/
+
+.ImageNu1{
+	width: 90%;
+	text-align: center;
+	margin: 1rem;
+	border-radius: 25px;
+}
+
+.ImageNu2, .ImageNu3{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	border-radius: 10px;
+}
+
+/*Paramètre des légendes numéro 1, 2 et 3 et de LegendeTable*/
+
+.LegendeNu1, .LegendeNu2, .LegendeNu3{
+	text-align: center;
+	color: rgb(174, 174, 174);
+}
+
+.LegendeTable{
+	text-align: center;
+}
+
+/*Paramètre de la vidéo numéro 1*/
+
+.VideoIntegrationNu1{
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+/*Paramètre de la div "Creation"*/
+
+.CreationsDiv{
+	display: flex;
+}
+
+/*Paramètre des 2 divs "Souris" et "NSL"*/
+
+.Souris, .NSL{
+	flex-basis: 100%;
+	margin-right: 5rem;
+}
+
+/*Paramètre de la liste des sources*/
+
+.SourcesListeNu1, .SourcesListeNu2{
+	column-count: 9;
+	column-gap: 2rem;
+}
+
+/*Paramètre des liens cliquables des sources*/
+
+.Sources a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.Sources a:visited{
+	color: rgb(174, 174, 174);
+}
+
+/*Paramètre des rupture thématique*/
+
+.RuptureTable{
+	background: rgb(255, 255, 255);
+	border: none;
+	height: 3px;
+	margin: 1.5rem 1rem;
+}
+
+.RuptureArticle{  	
+	background: rgb(255, 255, 255);
+	border: none;
+	margin: 2.5rem 3rem 3rem;
+	height: 3px;
+	width: 90%;
+}
+
+/*Paramètre des ancres*/
+
+.Anchor{
+	color: rgb(123, 191, 230);
+	text-decoration: none;
+}
+
+/*---------------------------------------------*/
